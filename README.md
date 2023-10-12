@@ -1,4 +1,6 @@
 "# api" 
+Charlies Merick B. Veloria
+
 ## JSON POST with Database Integration
 
 
