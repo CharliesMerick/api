@@ -1,8 +1,7 @@
-"# api" 
-
+CRUD API its allows you to insert, view,update,update, and delete
 # Charlies Merick B. Veloria 4E
 
-## JSON POST with Database Integration
+## API DESCRIPTION
 
 
 An API defines functionalities independently of their implementations, making it easier for developers to create programs by providing reusable building blocks. It enables developers to streamline complex processes with minimal code. Through API reuse, developers can bridge the gap between business requirements and IT capabilities, facilitating faster application development.
@@ -11,7 +10,7 @@ An API defines functionalities independently of their implementations, making it
  
 
 
-## API
+## API ENDPOINT
 An API defines functionalities independently of their implementations, making it easier for developers to create programs by providing reusable building blocks. It enables developers to streamline complex processes with minimal code. Through API reuse, developers can bridge the gap between business requirements and IT capabilities, facilitating faster application development.
 
 Purpose: Enable interaction and communication between different software components or systems, allowing them to work together effectively.
