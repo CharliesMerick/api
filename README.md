@@ -57,17 +57,17 @@ Endpoints
 ## Request Payload
 
 ## JSON Payload postName:
+- Request payload:
 {
   "lname":"hortizuela",
    "fname":"manny"
 }
 
-
 In this payload, used for creating a new name entry. Both "lname" and "fname" fields are present, and it appears that both fields are required as they are providing information about a person's first and last name.
 
 
 ## JSON Payload getName:
-
+- Request payload:
 The provided payload lacks defined fields. While it could potentially serve the purpose of retrieving or printing a name from the system, the payload itself does not outline any mandatory or discretionary fields.
 
 ## JSON Payload updateName:
