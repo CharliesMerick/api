@@ -57,7 +57,7 @@ Endpoints
 
 ## Request Payload
 
-## JSON payload postName:
+## JSON Payload postName:
 {
   "lname":"hortizuela",
    "fname":"manny"
@@ -67,11 +67,11 @@ Endpoints
 In this payload, used for creating a new name entry. Both "lname" and "fname" fields are present, and it appears that both fields are required as they are providing information about a person's first and last name.
 
 
-## JSON payload printName:
+## JSON Payload getName:
 
 The provided payload lacks defined fields. While it could potentially serve the purpose of retrieving or printing a name from the system, the payload itself does not outline any mandatory or discretionary fields.
 
-## JSON payload updateName:
+## JSON Payload updateName:
 - Request payload:
 {
   "id": 1,
@@ -81,7 +81,7 @@ The provided payload lacks defined fields. While it could potentially serve the 
 
 This payload serves the purpose of updating an already existing name entry, with the "id" parameter specifying the target entry. To complete the update, it necessitates providing the updated last name ("lname") and first name ("fname") for the person.
 
-## Request Payload updateName:
+## Request Payload deleteName:
 
 - Response payload:
 {
@@ -103,7 +103,7 @@ This payload is designed for the purpose of removing a name entry, and it only r
 
 The "status" field signifies the status of the API request, with "success" in this instance indicating a successful request. Meanwhile, the "data" field is included but set to null, indicating that no specific data is returned for successful postName requests.
 
-## Json Payload printName:
+## Json Payload getName:
 - Response payload:
 {
   "status": "success",
